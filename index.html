@@ -1,68 +1,618 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-<h1>Anton Alekseev</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="block_image _ibg">
+      <img
+        src="/assets/img/macos-monterey-stock-green-dark-mode-layers-5k-6016x6016-5888.jpg"
+        alt="image-fon"
+      />
+    </div>
+    <input type="radio" name="check" id="about" checked />
+    <input type="radio" name="check" id="skills" />
+    <input type="radio" name="check" id="code" />
+    <input type="radio" name="check" id="experience" />
+    <input type="radio" name="check" id="education" />
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav_header">
+          <div class="title">
+            <img src="/assets/img/pngwing.com.png" alt="iconapple" width="18" />
+            <span>@itmonsters</span>
+          </div>
 
+          <ul class="nav_items">
+            <li class="nav_item" id="check_about">
+              <label for="about">About me</label>
+            </li>
+            <li class="nav_item" id="check_skills">
+              <label for="skills">Skills</label>
+            </li>
+            <li class="nav_item" id="check_code">
+              <label for="code">Code Examples</label>
+            </li>
+            <li class="nav_item" id="check_experience">
+              <label for="experience">Experience</label>
+            </li>
+            <li class="nav_item" id="check_education">
+              <label for="education">Education</label>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="photo">
+            <img src="/assets/img/EI7gvLyT3wU.jpg" alt="hero-photo" />
+          </div>
 
-If you need me &#129047;
-- **phone:** + 375447010930
-- **E-mail:** leha050598@gmail.com
-- **Telegram:** [Anton Alekseev](https://t.me/antonalekseev98)
-- **GitHub** - [ItMonsters](https://github.com/ItMonsters)
-- **vk:** https://vk.com/id141800241
-    
+          <div class="hero_info">
+            <h1 class="hero_name">Anton Alekseev</h1>
+            <p class="hero_text">
+              <span>Was born</span> -
+              <time datetime="1998-05-05  ">05.05.1998</time> <br />
+              <span>Marital status</span> - married <br />
+              <span>From Mogilev</span> -dream to live in Barcelona <br />
+              <span>Email</span> - leha050598@gmail.com
+            </p>
+          </div>
+          <!--  -->
+        </section>
+        <section class="about_me">
+          <h2>About me</h2>
+          <p>
+            I am 23 years old, I graduated from medical university and work a
+            pharmacist. There is no career rise in this profession and I decided
+            to study a new field. I have always liked the exact sciences,
+            computer technology, so I chose development.
+          </p>
+        </section>
+        <section class="skills window">
+          <div class="window_header">
+            <div class="button_red"></div>
+            <div class="button_orange"></div>
+            <div class="button_green"></div>
+          </div>
+          <div class="skills_wrapper">
+            <div class="hero_strengths">
+              <h2>My strengths:</h2>
+              <ul class="strengths_list5">
+                <li class="strengths_item">I'm a fast learner</li>
+                <li class="strengths_item">Stress-resistant</li>
+                <li class="strengths_item">Heigh soft skill</li>
+                <li class="strengths_item">Hardworking</li>
+                <li class="strengths_item">Assiduous</li>
+                <li class="strengths_item">And I'm a beauty</li>
+              </ul>
+            </div>
+            <div class="my_skills">
+              <h2>Me skills:</h2>
+              <ul class="my_skills-list">
+                <li class="skills-item">HTML</li>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">Git/GitHub</li>
+                <li class="skills-item">Figma, VS Code, Sublime</li>
+                <li class="skills-item">Medicine and Pharmacology</li>
+                <li class="skills-item">Hookah master</li>
+              </ul>
+            </div>
+            <div class="skills_english block">
+              <h2 class="skills_english">English language</h2>
+              <p class="skills_english">
+                <span>My level:</span> Intermediate in
+                <a href="https://lingualeo.com"><i>lingleo</i></a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="code_examples window">
+          <div class="window_header">
+            <div class="button_red"></div>
+            <div class="button_orange"></div>
+            <div class="button_green"></div>
+          </div>
+          <div class="code_examples-block title_block">
+            <h2>Code Examples</h2>
 
+            <code>
+              <pre>
+      let a = prompt("Enter the first number:"); 
 
-About Me
-> I am 23 years old, I graduated from medical university and work a pharmacist. There is no career rise in this profession and I decided to study a new field. I have always liked the exact sciences, computer technology, so I chose development.
+      a = parseInt(a);  
+      
+      let b = prompt("Enter the second number:"); 
 
-My strengths:
-1. I'm a fast learner
-2. stress-resistant
-3. high soft skill
-4. hardworking
+      b = parseInt(b); 
 
-
-
-
-Skills
-* HTML
-* CSS
-* Git/GitHub
-* Figma, VS Code, Sublime
-
-
- 
-
-
-
-Experience
-
-| Experience | Position |
-| ------ | ------ |
-| **1** year | *hookah master in a restaurant* |
-| **2** year | *chief hookah master and supplier* |
-| **1** year | *pharmacist-recipe* |
-| **now** | *head of the pharmacy* |
-
-
-Education
-Vitebsk State Medical University**
-pharmacist
-HTML Academy**
-FreeCodeCamp**
-HTML and CSS
-
-
-English language
-My leval:** Intermediate in *lingleo
-
-</body>
+      alert(a+b);
+              </pre>
+            </code>
+          </div>
+        </section>
+        <section class="experience window">
+          <div class="window_header">
+            <div class="button_red"></div>
+            <div class="button_orange"></div>
+            <div class="button_green"></div>
+          </div>
+          <div class="experience-block title_block">
+            <h2>Experience</h2>
+            <table>
+              <tr>
+                <th>2018-2019</th>
+                <td>&#8212;</td>
+                <td>hookah master in a restaurant</td>
+              </tr>
+              <tr>
+                <th>2019-2020</th>
+                <td>&#8212</td>
+                <td>chief hookah master and supplier</td>
+              </tr>
+              <tr>
+                <th>2020-2021</th>
+                <td>&#8212</td>
+                <td>pharmacist-recipe</td>
+              </tr>
+              <tr>
+                <th>NOW</th>
+                <td>&#8212</td>
+                <td>head of the pharmacy</td>
+              </tr>
+            </table>
+            <div class="experience-block-programmer title_block">
+              <h2>My works</h2>
+              <ol>
+                <li><a href="https://itmonsters.github.io/rs-worckshop/" target="_blank">my first</a> app was linked from this <a href="https://www.youtube.com/watch?v=f-irDQwt1l4&t=9388s" target="_blank">video</a></li>
+                <li>my CV made on pure html and css</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+        <section class="education window">
+          <div class="window_header">
+            <div class="button_red"></div>
+            <div class="button_orange"></div>
+            <div class="button_green"></div>
+          </div>
+          <div class="education-block title_block">
+            <h2>Education</h2>
+            
+            <table>
+              <tr>
+                <th>1. </th>
+                <td>&#8212;</td>
+                <td>Vitebsk State Medical University(2015-2020)</td>
+              </tr>
+              <tr>
+                <th>2. </th>
+                <td>&#8212</td>
+                <td>html Academy</td>
+              </tr>
+              <tr>
+                <th>3.</th>
+                <td>&#8212</td>
+                <td>FreeCodeCamp</td>
+              </tr>
+              
+            </table>
+            <code> </code>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer_conteiner">
+          <ul class="footer_contact">
+            <li class="footer_item calendar">
+              <a target="_blank" href="#" class="footer_link">
+                <svg
+                  version="1.1"
+                  id="Capa_1"
+                  width="40"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 58 58"
+                  style="enable-background: new 0 0 58 58"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <polygon
+                        style="fill: #f05565"
+                        points="46.5,4 46.5,8 39.5,8 39.5,4 15.5,4 15.5,8 8.5,8 8.5,4 0.5,4 0.5,15 54.5,15 54.5,4 		"
+                      />
+                      <polygon
+                        style="fill: #efebde"
+                        points="8.5,15 0.5,15 0.5,58 54.5,58 54.5,15 46.5,15 39.5,15 15.5,15 		"
+                      />
+                      <path
+                        style="fill: #d5d0bb"
+                        d="M37.5,22h-2h-7h-2h-7h-2h-9v9v2v7v2v9h9h2h7h2h7h2h9v-9v-2v-7v-2v-9H37.5z M28.5,24h7v7h-7V24z
+			 M35.5,40h-7v-7h7V40z M19.5,33h7v7h-7V33z M19.5,24h7v7h-7V24z M10.5,24h7v7h-7V24z M10.5,33h7v7h-7V33z M17.5,49h-7v-7h7V49z
+			 M26.5,49h-7v-7h7V49z M35.5,49h-7v-7h7V49z M44.5,49h-7v-7h7V49z M44.5,40h-7v-7h7V40z M37.5,31v-7h7v7H37.5z"
+                      />
+                      <rect
+                        x="8.5"
+                        style="fill: #36495e"
+                        width="7"
+                        height="8"
+                      />
+                      <rect
+                        x="39.5"
+                        style="fill: #36495e"
+                        width="7"
+                        height="8"
+                      />
+                      <rect
+                        x="19.5"
+                        y="33"
+                        style="fill: #7f6e5d"
+                        width="7"
+                        height="7"
+                      />
+                    </g>
+                    <g>
+                      <path
+                        style="fill: #556080"
+                        d="M57.5,43.846l-1.444-0.278c-2.143-0.412-3.125-2.916-1.835-4.675l0.907-1.236l-1.958-1.958
+			l-1.217,0.825c-1.806,1.224-4.272,0.148-4.604-2.008L47.115,33h-2.769l-0.359,1.865c-0.403,2.096-2.818,3.096-4.585,1.899
+			l-1.572-1.065l-1.958,1.958l0.907,1.236c1.29,1.76,0.308,4.263-1.835,4.675L33.5,43.846v2.769l1.515,0.233
+			c2.157,0.332,3.232,2.797,2.008,4.604l-0.825,1.217l1.958,1.958l1.236-0.907c1.76-1.29,4.263-0.308,4.675,1.835L44.346,57h2.769
+			l0.164-1.066c0.339-2.204,2.896-3.263,4.694-1.944l0.869,0.638l1.958-1.958l-0.825-1.217c-1.224-1.806-0.148-4.272,2.008-4.604
+			l1.515-0.233V43.846z"
+                      />
+                      <g>
+                        <circle style="fill: #ffffff" cx="45.5" cy="45" r="4" />
+                        <path
+                          style="fill: #ecf0f1"
+                          d="M45.5,50c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S48.257,50,45.5,50z M45.5,42
+				c-1.654,0-3,1.346-3,3s1.346,3,3,3s3-1.346,3-3S47.154,42,45.5,42z"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+              </a>
+              <p class="title_contact-calendar">
+                Work completed:
+                <time datetime="2021-12-31 19:00">31.12.2021</time>
+              </p>
+            </li>
+            <li class="footer_item vk">
+              <a
+                target="_blank"
+                href="https://vk.com/id141800241"
+                class="footer_link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-label="VK"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  width="40"
+                >
+                  <rect width="512" height="512" rx="15%" fill="#5281b8" />
+                  <path
+                    fill="#fff"
+                    d="M274 363c5-1 14-3 14-15 0 0-1-30 13-34s32 29 51 42c14 9 25 8 25 8l51-1s26-2 14-23c-1-2-9-15-39-42-31-30-26-25 11-76 23-31 33-50 30-57-4-7-20-6-20-6h-57c-6 0-9 1-12 6 0 0-9 25-21 45-25 43-35 45-40 42-9-5-7-24-7-37 0-45 7-61-13-65-13-2-59-4-73 3-7 4-11 11-8 12 3 0 12 1 17 7 8 13 9 75-2 81-15 11-53-62-62-86-2-6-5-7-12-9H79c-6 0-15 1-11 13 27 56 83 193 184 192z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="footer_item github">
+              <a
+                target="_blank"
+                href="https://github.com/ItMonsters"
+                class="footer_link"
+              >
+                <svg
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="footer_item rssshool">
+              <a
+                target="_blank"
+                href="https://rs.school/js/"
+                class="footer_link"
+              >
+                <svg
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 552.8 205.3"
+                  height="40"
+                >
+                  <style>
+                    .st0 {
+                      fill: #fff;
+                    }
+                    .st1 {
+                      clip-path: url(#SVGID_2_);
+                    }
+                    .st2 {
+                      clip-path: url(#SVGID_4_);
+                    }
+                    .st3 {
+                      clip-path: url(#SVGID_6_);
+                    }
+                    .st4 {
+                      clip-path: url(#SVGID_8_);
+                    }
+                    .st5 {
+                      fill: #fff;
+                      stroke: #000;
+                      stroke-width: 4;
+                      stroke-miterlimit: 10;
+                    }
+                    .st6 {
+                      clip-path: url(#SVGID_8_);
+                    }
+                    .st6,
+                    .st7 {
+                      fill: none;
+                      stroke: #000;
+                      stroke-width: 4;
+                      stroke-miterlimit: 10;
+                    }
+                    .st8,
+                    .st9 {
+                      clip-path: url(#SVGID_10_);
+                    }
+                    .st9 {
+                      fill: none;
+                      stroke: #000;
+                      stroke-width: 4;
+                      stroke-miterlimit: 10;
+                    }
+                  </style>
+                  <title>rs_school_js</title>
+                  <path
+                    d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"
+                  />
+                  <path
+                    d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"
+                  />
+                  <path
+                    d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"
+                  />
+                  <path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z" />
+                  <ellipse
+                    transform="rotate(-37.001 420.46 67.88)"
+                    class="st0"
+                    cx="420.5"
+                    cy="67.9"
+                    rx="63"
+                    ry="51.8"
+                  />
+                  <defs>
+                    <ellipse
+                      id="SVGID_1_"
+                      transform="rotate(-37.001 420.46 67.88)"
+                      cx="420.5"
+                      cy="67.9"
+                      rx="63"
+                      ry="51.8"
+                    />
+                  </defs>
+                  <clipPath id="SVGID_2_">
+                    <use xlink:href="#SVGID_1_" overflow="visible" />
+                  </clipPath>
+                  <g class="st1">
+                    <path
+                      transform="rotate(-37.001 420.82 68.353)"
+                      class="st0"
+                      d="M330.9-14.2h179.8v165.1H330.9z"
+                    />
+                    <g id="Layer_2_1_">
+                      <defs>
+                        <path
+                          id="SVGID_3_"
+                          transform="rotate(-37.001 420.82 68.353)"
+                          d="M330.9-14.2h179.8v165.1H330.9z"
+                        />
+                      </defs>
+                      <clipPath id="SVGID_4_">
+                        <use xlink:href="#SVGID_3_" overflow="visible" />
+                      </clipPath>
+                      <g id="Layer_1-2" class="st2">
+                        <ellipse
+                          transform="rotate(-37.001 420.46 67.88)"
+                          class="st0"
+                          cx="420.5"
+                          cy="67.9"
+                          rx="63"
+                          ry="51.8"
+                        />
+                        <defs>
+                          <ellipse
+                            id="SVGID_5_"
+                            transform="rotate(-37.001 420.46 67.88)"
+                            cx="420.5"
+                            cy="67.9"
+                            rx="63"
+                            ry="51.8"
+                          />
+                        </defs>
+                        <clipPath id="SVGID_6_">
+                          <use xlink:href="#SVGID_5_" overflow="visible" />
+                        </clipPath>
+                        <g class="st3">
+                          <path
+                            transform="rotate(-37 420.799 68.802)"
+                            class="st0"
+                            d="M357.8 17h125.9v103.7H357.8z"
+                          />
+                          <defs>
+                            <path
+                              id="SVGID_7_"
+                              transform="rotate(-37 420.799 68.802)"
+                              d="M357.8 17h125.9v103.7H357.8z"
+                            />
+                          </defs>
+                          <clipPath id="SVGID_8_">
+                            <use xlink:href="#SVGID_7_" overflow="visible" />
+                          </clipPath>
+                          <g class="st4">
+                            <ellipse
+                              transform="rotate(-37.001 420.46 67.88)"
+                              class="st5"
+                              cx="420.5"
+                              cy="67.9"
+                              rx="63"
+                              ry="51.8"
+                            />
+                          </g>
+                          <path
+                            transform="rotate(-37 420.799 68.802)"
+                            class="st6"
+                            d="M357.8 17h125.9v103.7H357.8z"
+                          />
+                          <ellipse
+                            transform="rotate(-37.001 420.46 67.88)"
+                            class="st7"
+                            cx="420.5"
+                            cy="67.9"
+                            rx="63"
+                            ry="51.8"
+                          />
+                          <path
+                            transform="rotate(-37 420.799 68.802)"
+                            class="st0"
+                            d="M357.8 17h125.9v103.7H357.8z"
+                          />
+                          <defs>
+                            <path
+                              id="SVGID_9_"
+                              transform="rotate(-37 420.799 68.802)"
+                              d="M357.8 17h125.9v103.7H357.8z"
+                            />
+                          </defs>
+                          <clipPath id="SVGID_10_">
+                            <use xlink:href="#SVGID_9_" overflow="visible" />
+                          </clipPath>
+                          <g class="st8">
+                            <ellipse
+                              transform="rotate(-37.001 420.46 67.88)"
+                              class="st5"
+                              cx="420.5"
+                              cy="67.9"
+                              rx="63"
+                              ry="51.8"
+                            />
+                          </g>
+                          <path
+                            transform="rotate(-37 420.799 68.802)"
+                            class="st9"
+                            d="M357.8 17h125.9v103.7H357.8z"
+                          />
+                          <path
+                            transform="rotate(-37.001 420.82 68.353)"
+                            class="st7"
+                            d="M330.9-14.2h179.8v165.1H330.9z"
+                          />
+                        </g>
+                        <ellipse
+                          transform="rotate(-37.001 420.46 67.88)"
+                          class="st7"
+                          cx="420.5"
+                          cy="67.9"
+                          rx="63"
+                          ry="51.8"
+                        />
+                        <path
+                          d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_item telegram">
+              <a
+                target="_blank"
+                href="https://t.me/antonalekseev98"
+                class="footer_link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-label="Telegram"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  width="40"
+                >
+                  <rect width="512" height="512" rx="15%" fill="#37aee2" />
+                  <path
+                    fill="#c8daea"
+                    d="M199 404c-11 0-10-4-13-14l-32-105 245-144"
+                  />
+                  <path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34" />
+                  <path
+                    fill="#f6fbfe"
+                    d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="footer_item discord">
+              <a
+                target="_blank"
+                href="https://discordapp.com/users/924595230697725992/ "
+                class="footer_link"
+              >
+                <svg
+                  width="40"
+                  viewBox="0 0 1024 1024"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="512" cy="512" r="512" style="fill: #5865f2" />
+                  <path
+                    d="M689.43 349a422.21 422.21 0 0 0-104.22-32.32 1.58 1.58 0 0 0-1.68.79 294.11 294.11 0 0 0-13 26.66 389.78 389.78 0 0 0-117.05 0 269.75 269.75 0 0 0-13.18-26.66 1.64 1.64 0 0 0-1.68-.79A421 421 0 0 0 334.44 349a1.49 1.49 0 0 0-.69.59c-66.37 99.17-84.55 195.9-75.63 291.41a1.76 1.76 0 0 0 .67 1.2 424.58 424.58 0 0 0 127.85 64.63 1.66 1.66 0 0 0 1.8-.59 303.45 303.45 0 0 0 26.15-42.54 1.62 1.62 0 0 0-.89-2.25 279.6 279.6 0 0 1-39.94-19 1.64 1.64 0 0 1-.16-2.72c2.68-2 5.37-4.1 7.93-6.22a1.58 1.58 0 0 1 1.65-.22c83.79 38.26 174.51 38.26 257.31 0a1.58 1.58 0 0 1 1.68.2c2.56 2.11 5.25 4.23 8 6.24a1.64 1.64 0 0 1-.14 2.72 262.37 262.37 0 0 1-40 19 1.63 1.63 0 0 0-.87 2.28 340.72 340.72 0 0 0 26.13 42.52 1.62 1.62 0 0 0 1.8.61 423.17 423.17 0 0 0 128-64.63 1.64 1.64 0 0 0 .67-1.18c10.68-110.44-17.88-206.38-75.7-291.42a1.3 1.3 0 0 0-.63-.63zM427.09 582.85c-25.23 0-46-23.16-46-51.6s20.38-51.6 46-51.6c25.83 0 46.42 23.36 46 51.6.02 28.44-20.37 51.6-46 51.6zm170.13 0c-25.23 0-46-23.16-46-51.6s20.38-51.6 46-51.6c25.83 0 46.42 23.36 46 51.6.01 28.44-20.17 51.6-46 51.6z"
+                    style="fill: #fff"
+                  />
+                </svg>
+              </a>
+              <p class="title_contact-discord">Anton (@ itmonsters)</p>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
