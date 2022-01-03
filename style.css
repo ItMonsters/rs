@@ -302,11 +302,10 @@ label {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 15px;
+  padding-top: 20px;
   max-width: 500px;
   margin: 0 auto;
   align-items: center;
-  padding: 0 50px;
 }
 
 .photo img {
