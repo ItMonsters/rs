@@ -353,7 +353,7 @@ label {
   max-width: 500px;
   min-height: 300px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.292);
+  background: rgba(255, 255, 255, 0.492);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   border: 1px solid rgba(43, 43, 43, 0.568);
